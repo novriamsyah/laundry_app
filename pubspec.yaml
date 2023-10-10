@@ -1,0 +1,37 @@
+name: laundry_app
+description: A new Flutter project.
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.1.1 <4.0.0"
+
+dependencies:
+  another_flushbar: ^1.12.30
+  d_button: ^0.0.10
+  d_info: ^0.2.0
+  d_input: ^0.1.1
+  d_method: ^0.2.1
+  d_view: ^0.0.3
+  dartz: ^0.10.1
+  flutter:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.1
+  flutter_riverpod: ^2.4.0
+  google_fonts: ^5.1.0
+  grouped_list: ^5.1.2
+  intl: ^0.18.1
+  shared_preferences: ^2.2.1
+  smooth_page_indicator: ^1.1.0
+  url_launcher: ^6.1.14
+  whatsapp_unilink: ^2.1.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
